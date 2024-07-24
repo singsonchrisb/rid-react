@@ -1,0 +1,225 @@
+/* =====================
+# SIDEBAR
+======================== */
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    /* z-index: 996; */
+    z-index: 100; 
+    transition: all 0.3s;
+    padding: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff transparent;
+    box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+    /* background: linear-gradient(to right, #bdb76b, #a09a49); */
+    background: #806749;
+}
+
+@media (max-width: 1199px) {
+    .sidebar {
+        left: -300px;
+    }
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #ffffff;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+@media (min-width: 1200px) {
+    #main,
+    #footer {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 1199px){
+    .toggle-sidebar .sidebar {
+        left: 0;
+    }
+}
+
+@media (min-width: 1200px){
+    .toggle-sidebar #main,
+    .toggle-sidebar #footer {
+        margin-left: 0;
+    }
+
+    .toggle-sidebar .sidebar {
+        left: -300px;
+    }
+}
+
+.sidebar-nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    padding: 0;
+    margin: 0; 
+    list-style: none;
+}
+
+.sidebar-nav .sidebar-nav-item {
+    margin-bottom: 5px;
+}
+
+.sidebar-nav .nav-heading {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 0 5px 15px;
+}
+
+/* Dashboard Menu */
+.sidebar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3;
+    background: #fafaff;
+    background: linear-gradient(to right, #84654d, #806749);
+    padding: 10px 15px;
+    border-radius: 24px;
+}
+
+.sidebar-nav .nav-link i {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.sidebar-nav .nav-link.collapsed {
+    color: #fff;
+    background: linear-gradient(to right, #806749, #806749);
+}
+
+.sidebar-nav .nav-link.nav-link.collapsed i {
+    font-size: 14px;
+    color: #fff;
+}
+
+.sidebar-nav .nav-link:hover {
+    color: #fff;
+    background: #e2c790;
+}
+
+
+.sidebar-nav .nav-link:hover i {
+    color: #fff;
+}
+
+.sidebar-nav .nav-link .bi-chevron-down {
+    margin-right: 0;
+    transition: transform 0.2s ease-in-out;
+    /* width: '250px'; */
+}
+
+.sidebar-nav .nav-link:not(.collapsed) .bi-chevron-down {
+    transform: rotate(180deg);
+}
+
+.sidebar-nav .nav-content {
+    padding: 5px 0 0 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar-nav .nav-content a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fafaff;
+    transition: 0.3;
+    padding: 10px 0 10px 40px;
+    transition: 0.3s;
+}
+
+.sidebar-nav .nav-content a i {
+    color: #fafaff;
+    font-size: 14px;
+    margin-right: 8px;
+    line-height: 0;
+    border-radius: 50%;
+}
+
+.sidebar-nav .nav-content a.active {
+    color: #fff;
+}
+
+.sidebar-nav .nav-content a:hover {
+    color: #fff;
+    background-color: #e2c790;
+    border-radius: 24px;
+    transition: all 0.3s;
+}
+
+.sidebar-nav .nav-content a.active i {
+    color: #fff;
+    background-color: #fff;
+}
+
+/* Submenu Level 3 Styling */
+.sidebar-nav .nav-content .nav-content a {
+    padding: 10px 0 10px 60px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar-nav .nav-content .nav-content a:hover {
+    background-color: #e2c790;
+    border-radius: 20px;
+}
+
+.sidebar-nav .nav-content .nav-content .bi-chevron-down {
+    transition: transform 0.2s ease-in-out;
+}
+
+.sidebar-nav .nav-content .nav-content .bi-chevron-down.collapsed {
+    transform: rotate(0deg);
+}
+
+.sidebar-nav .nav-content .nav-content .bi-chevron-down:not(.collapsed) {
+    transform: rotate(180deg);
+}
+
+/* Submenu Level 4 Styling */
+.sidebar-nav .nav-content .nav-content .nav-content a {
+    padding: 10px 0 10px 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar-nav .nav-content .nav-content .nav-content a:hover {
+    background-color: #e2c790;
+    border-radius: 20px;
+}
+
+.sidebar-nav .nav-content .nav-content .nav-content .bi-chevron-down {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Adding rotation to level 4 chevron */
+.sidebar-nav .nav-content .nav-content .nav-content .bi-chevron-down.collapsed {
+    transform: rotate(0deg);
+}
+
+.sidebar-nav .nav-content .nav-content .nav-content .bi-chevron-down:not(.collapsed) {
+    transform: rotate(180deg);
+}
