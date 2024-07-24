@@ -1,0 +1,131 @@
+/* .main-center {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+} */
+
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+	padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 15px;
+    padding-right: 50px;
+    /*padding: 90px 0px 90px 0px; */
+    background-color: rgb(252, 252,252);
+    /* background-color: rgb(209, 240, 171); , #e1e3eb  neo green */
+}
+
+.sub-main {
+    display: flex;
+    justify-content: center;
+    height:  480px;
+    width: 300px;
+    box-shadow: 1px 2px 3px 3px gray;
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: white
+}
+
+.imgs {
+    padding-top: 20px ;
+    justify-content: center;
+    display: flex;
+}
+
+.container-image {
+    background-color: rgb(223, 221,221) ;
+    border-radius: 6px;
+    align-items: center;
+    display: flex;
+    height: 15px;
+    width: 15px;
+}
+
+
+.profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+}
+/* 
+.input-login {
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+	
+    border: none;
+    outline: none;
+    background-color: white
+}
+
+.input-login:hover {
+    background-color: rgb(209, 240, 171);
+    color: black;
+} */
+
+.login-img {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+    
+}
+.login-img-close {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    text-align: right;
+    
+    
+}
+
+
+.login-input {
+    padding-left: 15px ;
+    font-size: 100%;
+    width: 200px;
+    height: 50px;
+    border-radius: 2px;
+    box-shadow: inset 0px 0px 20px 0px #888;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.login-input:hover {
+    background-color: rgb(180, 219, 241);
+    color: black;
+}
+.login-input:focus {
+    background-color: white;
+    color: black;
+}
+
+.second-input {
+    padding-top: 20px ;
+}
+
+.login-button {
+    width: 90%;
+    height: 50px;
+    border-radius: 9px;
+    background-color: darkslateblue; 
+    color:  white;
+    font-size: 24px;
+    border: none;
+    padding-top: 2px ;
+}
+
+.login-button:hover {
+    background-color:  rgb(180, 219, 241);
+    color: black;
+}
+
+.login-link {
+   font-size: 20px; 
+   font-weight: 400;
+}

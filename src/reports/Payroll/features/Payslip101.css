@@ -1,0 +1,35 @@
+@media print {
+    .payslip-container {
+        width: 4in; 
+        height: 6in;
+        margin: 0mm 20mm 20mm 20mm; 
+        /* Center the container horizontally */
+        /* padding: 2mm; */
+         /* Add padding to the container */
+        /* font-size: xx-small; */
+        /* size: 1rem; */
+    }
+    
+    .payslip-container-org {
+        width: 100mm; /* Set the width of the container to match A4 paper width */
+        margin: 5mm; /* Center the container horizontally */
+        padding: 10mm; /* Add padding to the container */
+        font-size: xx-small;
+        size: 1rem;
+    }
+    /* .no-print {
+        page-break-after: always;
+    } */
+      /* Print only the first page */
+    /* .payslip-container-not-good:not(:first-of-type) {
+        display: none;
+        
+    }
+    .payslip-container-not-good:nth-child(odd) {
+        display: none;
+    } */
+
+    h5 {
+        font-size: small;
+    }
+}

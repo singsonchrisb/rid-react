@@ -1,0 +1,65 @@
+.print-column2-content {
+  column-count: 2; /* Set the number of columns */
+  column-gap: 2px; /* Adjust the gap between columns */
+  /* Add any other styles you need */
+}
+
+.print-new-page {
+  /* Add styles for your report content */
+  color: black;
+}
+
+.print-section-85115-p {
+  width: 8.5in;
+  /* height: 11.5in; */
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 3px;
+}
+
+.print-styled-table85115DC {
+  border-collapse: collapse;
+  /* margin: auto; */
+  font-size: 8px;
+  /* font-family: Tahoma; */
+  font-family: Helvetica;
+  max-width: 100%; 
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+  table-layout:fixed; 
+  /* align-items: left; */
+}
+
+
+@media print {
+  /* Define print-specific styles */
+  @page {
+    size: portrait; /* Set page size to portrait */
+    /* margin: 1cm; */ /* Default margin of 1cm */
+  }
+
+  /* Ensure content doesn't break across pages */
+  .print-column2-content-CLosed {
+    /* break-inside: avoid; */
+    page-break-inside: avoid;
+  }
+
+  /* Add page break before report content */
+  .print-new-page {
+    page-break-before: always;
+  }
+
+  /* Style for printing tables */
+  .print-styled-table85115DC {
+    width: 8.5in;
+    height: 11in;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 2px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}

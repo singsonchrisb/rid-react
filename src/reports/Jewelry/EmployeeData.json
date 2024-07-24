@@ -1,0 +1,511 @@
+{
+"status": 200,
+"data": [
+
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+{
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+{
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+{
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+{
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+{
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+{
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12675,
+        "name": "Jean Claude",
+        "position": "Merchandiser",
+        "branch": "ORO 19",
+        "startDate": "01-12-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    },
+    {
+        "_id": 12995,
+        "name": "Juan Karlos ",
+        "position": "Software Programmer",
+        "branch": "Office",
+        "startDate": "01-03-2024"
+    },
+    {
+        "_id": 12892,
+        "name": "Ivan Jamahali",
+        "position": "Supervisor",
+        "branch": "ORO 6",
+        "startDate": "01-10-2024"
+    }
+],
+"errors": null
+}

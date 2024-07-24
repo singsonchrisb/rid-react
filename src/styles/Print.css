@@ -1,0 +1,160 @@
+.print-header, .print-header-space,
+.print-footer, .print-footer-space {
+  height: 10px;
+}
+.print-header {
+  position: fixed;
+  top: 0;
+}
+.print-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.print-section {
+    width: 900px;  /* new code fix  */
+    max-width: 900px;
+    margin: 0 auto;
+    /* margin-top: '10px'; */
+    /* background-color: #ffffff; */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+  }
+  .print-section h1 {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 23px;
+  }
+  .print-card {
+    position: relative;
+    width: 100%;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .print-float-start {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+  }
+  .print-float-start h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+  }
+
+  .print-section-85115 {
+    width: 8.5in;
+    /* height: 11.5in; */
+    max-width: 100%;
+    margin: 0 auto;
+    /* background-color: #ffffff; */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+    font-size: '9px';
+  }
+  
+  
+  .print-styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 8px;
+    /* font-family: Tahoma; */
+    font-family: Helvetica;
+    max-width: 100%; 
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+    table-layout:fixed; 
+    /* align-items: left; */
+    background-color: white;
+ }
+
+ 
+ .print-styled-table-title {
+   text-align: left;
+   text-justify: auto;
+   /* font-family: Tahoma; */
+   font-family: Helvetica;
+   /* max-width: 1600px; 07/20/23 */
+   max-width: 100%
+}
+
+.print-styled-table thead tr {
+    /* background-color: green; */
+    /* background-color:#2E7D32; */
+    color:black;
+    text-align: left;
+ }
+
+ .print-styled-table th,
+ .print-styled-table td {
+  font-family: Helvetica;
+  padding: .1px 3px; 
+ }
+
+ .print-styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;  
+      text-align: left;
+ }
+ 
+ .print-styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;  
+    text-align: left;
+ }
+
+ /* .print-styled-table tr:last-of-type {
+    border-bottom: 1px solid black;
+    text-align: left;
+ } */
+
+
+ .page{
+    counter-reset: page;
+    }
+    .page .page-number{
+      display:block;
+      }
+    .page .page-number:after{
+    counter-increment: page;
+    content:counter(page);
+    }
+    .page:after{
+        display: block;
+        content: "Number of pages: " counter(page);
+    }
+
+    @media print {
+      /* Define print-specific styles */
+      @page {
+        size: portrait; /* Set page size to portrait */
+        /* margin: 1cm; */ /* Default margin of 1cm */
+      }
+    
+      /* Additional styles for printing */
+      .print-card {
+        padding: 17px;
+      }
+    
+      /* Styles for printing section */
+      .print-section-85115 {
+        width: 8.5in;
+        height: 11in;
+        max-width: 100%;
+        /* margin: 0 auto; */
+
+        /* background-color: #ffffff; */
+        background-color: white;
+        padding: 20px;
+        box-shadow: none;
+        border-radius: 0;
+      }
+    }

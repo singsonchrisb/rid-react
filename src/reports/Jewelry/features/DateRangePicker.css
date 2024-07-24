@@ -1,0 +1,28 @@
+.date-range-picker {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.date-range-picker input[type='data'] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.date-range-picker button {
+    padding: 8px 16px;
+    background-color: #3587df;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.date-range-picker button:hover {
+    background-color: #0056b3;
+}
