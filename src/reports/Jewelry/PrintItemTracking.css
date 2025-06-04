@@ -1,7 +1,0 @@
-@media print {
-    @page {
-      /* size: portrait; */
-      size: landscape;
-    }
-  }
-  
