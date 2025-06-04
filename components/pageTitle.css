@@ -1,0 +1,49 @@
+.pagetitle {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.pagetitle h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+nav {
+    margin-left: auto;
+}
+  
+.nav-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: medium;
+    margin: 4px 6px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(66, 66, 66, 0.3);
+}
+  
+.nav-button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+  
+.nav-button:active {
+    background-color: #3e8e41; /* Active Color */
+    box-shadow: 0 4px 8px rgba(56, 56, 56, 0.3);
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-button {
+      display: none; /* Hide the buttons */
+    }
+}
